@@ -1,0 +1,27 @@
+.highScoreSidebar {
+  width: 250px;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  border-right: 2px solid #555;
+  height: 100vh;
+  color: white;
+  font-family: sans-serif;
+}
+
+.highScoreSidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f1c40f;
+}
+
+.highScoreSidebar ol {
+  list-style: none;
+  padding: 0;
+}
+
+.highScoreSidebar li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #444;
+} 
